@@ -1,1 +1,1 @@
-HCDE 598 Special Topics Digital Fabrication
+HCDE 533: Digital Fabrication // Fall 2022
