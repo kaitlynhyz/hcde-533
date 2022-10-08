@@ -17,6 +17,7 @@ a {
 .header {
   background: #fff;
   color: #000;
+  height: 200px;
   padding: 30px 30px 30px;
 }
 
