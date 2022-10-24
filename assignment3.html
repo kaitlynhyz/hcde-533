@@ -15,13 +15,7 @@
             <h1>A3: Getting Started With 3D Printing!</h1>
             Oct. 25, 2022
            
-            <p>
-                Here's my finished and assembled Parametric Laser Cut Construction:
-                <br>
-            <img src="a2_final.JPG" width=500></a>
-            </p>
-            
-    <h3>Design & Implementation</h3>
+    <h3>Assembly</h3>
     <p>As my first laser cutting assginment dealt with polygons, I decided to continue the trend for my second assignment. For this assignment, I decided to create an octogon (11mm in radius) and hexagon (8mm in radius). Using the polygon component in Grasshopper, I was able to easily change the number of sides of the shape by adjusting the segment.</p>
             <img src="a2_shape.png" width=500></a>
             </p>
@@ -40,10 +34,158 @@
     
 
 
-<h3>Laser Cutting</h3>
+<h3>Printing</h3>
 <p>I went back to the 8 since that machine tends to break down less than the one at the MILL. I had issues with exporting the Rhino file to Adobe Illustrator and opening up the Illustor file on the computer to laser cut. A work around was to export the Rhino rile as a .dxf file and then importing it into Adobe Illustrator. That worked well, but I had issues with keeping the same size when importing. These are some of the test pieces that I had printed. The shapes were way too big during my first print. I kept sizing the shapes down until the gaps were able to link with each other. Third try was a charm!</p>
 <img src="a2_testshape.JPG" width=500></a>
 <img src="a2_assembly.JPG" width=500></a>
+
+<table>
+    <tr>
+        <th colspan="12">thing!</th>
+        <th colspan="36">dimensions! (± 0.005 mm)</th>
+        <th colspan="24"> print time!</th>
+        <th colspan="12" class="fill-cell"></th>
+      </tr>
+  
+      <tr>
+        <th colspan="12">cubes!</th>
+        <th colspan="12">width! (mm)</th>
+        <th colspan="12">height! (mm)</th>
+        <th colspan="12">depth! (mm)</th>
+        <th colspan="12">estimated! (mins)</th>
+        <th colspan="12">actual! (mins)</th>
+        <th colspan="12">material estimation! (g)</th>
+      </tr>
+  
+      <tr>
+        <td colspan="12"> 20mm low quality cube w/ brim</td>
+        <td colspan="12">  20.22</td>
+        <td colspan="12"> 20.02 </td>
+        <td colspan="12"> 20.20 </td>
+        <td colspan="12"> 24 </td>
+        <td colspan="12"> 24 </td>
+        <td colspan="12"> 4 </td>
+      </tr>
+  
+      <tr>
+        <td colspan="12"> 20mm standard quality cube w/ brim 
+        </td>
+        <td colspan="12"> 19.65</td>
+        <td colspan="12"> 20.07 </td>
+        <td colspan="12"> 20.10 </td>
+        <td colspan="12"> 27 </td>
+        <td colspan="12"> 25 </td>
+        <td colspan="12"> 4 </td>
+      </tr>
+  
+      <tr>
+        <td colspan="12"> 20mm super quality cube w/ brim <br/> 
+        </td>
+        <td colspan="12"> 19.72</td>
+        <td colspan="12"> 20.06 </td>
+        <td colspan="12"> 19.99 </td>
+        <td colspan="12"> 55 </td>
+        <td colspan="12"> 55 </td>
+        <td colspan="12"> 4 </td>
+      </tr>
+  
+      <tr>
+        <td colspan="12"> 20mm low quality cube w/ concentric top & bottom 
+        </td>
+        <td colspan="12"> 19.88 </td>
+        <td colspan="12"> 20.05 </td>
+        <td colspan="12"> 19.75 </td>
+        <td colspan="12"> 24 </td>
+        <td colspan="12"> 27 </td>
+        <td colspan="12"> 4 </td>
+      </tr>
+  
+      <tr>
+        <th colspan="12">tubes!
+        </th>
+        <th colspan="12">diameter! (mm)</th>
+        <th colspan="12">height! (mm)</th>
+        <th colspan="12">wall thickness! (mm)</th>
+        <th colspan="12">estimated! (mins)</th>
+        <th colspan="12">actual! (mins)</th>
+        <th colspan="12">material estimation! (g)</th>
+      </tr>
+  
+      <tr>
+        <td colspan="12"> 30mm standard quality tube w/ single extrusion wall thickness
+        </td>
+        <td colspan="12"> 29.88</td>
+        <td colspan="12"> 30.07 </td>
+        <td colspan="12"> 0.5-0.9 </td>
+        <td colspan="12"> 30 </td>
+        <td colspan="12"> 35 </td>
+        <td colspan="12"> 3 </td>
+      </tr>
+  
+      <tr>
+        <td colspan="12"> 30mm standard quality tube w/ double extrusion wall thickness & random z-seam alignment
+        </td>
+        <td colspan="12"> 29.54</td>
+        <td colspan="12"> 30.08 </td>
+        <td colspan="12"> 0.80 - 1.01 </td>
+        <td colspan="12"> 30 </td>
+        <td colspan="12"> 36 </td>
+        <td colspan="12"> 3 </td>
+      </tr>
+  
+      <tr>
+        <td colspan="12"> 30mm standard quality cylinder* with special mode "spiralize outer contour"  <br/> 
+          <span class="post-meta">*spiralize outer contour makes a cup! so i've grouped it under 'tubes' :) </span> 
+       
+        </td>
+        <td colspan="12"> 29.28</td>
+        <td colspan="12"> 30.68 </td>
+        <td colspan="12"> 0.53 </td>
+        <td colspan="12"> 36 </td>
+        <td colspan="12"> 37 </td>
+        <td colspan="12"> 2 </td>
+      </tr>
+  
+      <tr>
+        <th colspan="12">cylinders!</th>
+        <th colspan="18">diameter! (mm)</th>
+        <th colspan="18"> height! (mm)</th>
+        <th colspan="12">estimated! (mins)</th>
+        <th colspan="12">actual! (mins)</th>
+        <th colspan="12">material estimation! (g)</th>
+      </tr>
+  
+      <tr>
+        <td colspan="12"> 30mm standard quality cylinder exported w/ 0.1mm tolerance
+        </td>
+        <td colspan="18"> 29.50</td>
+        <td colspan="18"> 30.03 </td>
+        <td colspan="12"> 48 </td>
+        <td colspan="12"> 49 </td>
+        <td colspan="12"> 6 </td>
+      </tr>
+  
+      <tr>
+        <td colspan="12"> 30mm standard quality cylinder exported w/ 0.001mm tolerance
+        </td>
+        <td colspan="18"> 30.15</td>
+        <td colspan="18"> 30.05 </td>
+        <td colspan="12"> 48 </td>
+        <td colspan="12"> 49 </td>
+        <td colspan="12"> 6 </td>
+      </tr>
+  
+  
+      <tr>
+        <td colspan="12"> 30mm standard quality cylinder printed on its side with supports on
+        </td>
+        <td colspan="18"> 29.93</td>
+        <td colspan="18"> 29.94 </td>
+        <td colspan="12"> 60 </td>
+        <td colspan="12"> 59 </td>
+        <td colspan="12"> 6 </td>
+      </tr>
+</table>
 
 <p>Once I got the right size, I printed the shapes out. It's always so satisfying to watch the laser cutter do its job!</p>
 
